@@ -1,4 +1,3 @@
-
 # Padronização de Gateways Linkapi
 
 ## <a name='table-of-contents'>Índice</a>

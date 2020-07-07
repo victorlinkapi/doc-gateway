@@ -1,16 +1,12 @@
-
 # Padronização de Gateways Linkapi
 
-
 ## <a name='table-of-contents'>Índice</a>
-
 
 ## <a name='table-of-contents'>Nomenclaturas</a>
   1. [Arquivos](#names)
   1. [Variáveis](#variables)
   1. [Funções](#functions)
   1. [Construtores e Classes](#constructors)
-
 
 ## <a name='names'>Arquivos (custom-middlewares, data-transformations e functions).</a>
 
@@ -21,16 +17,13 @@ Padrões  | Nomenclaturas devem ser minúsculas, em caso de 2 ou mais utilizar k
 
   - Exemplos:
   
-  
 ![](https://i.ibb.co/FBfC2wd/Files.png)
 
   - Não utilizar:
 
 ![](https://i.ibb.co/m9c6k6w/bad-files.png)
 
-
 **[⬆ voltar ao topo](#table-of-contents)**
-
 
 ## <a name='variables'>Variáveis.</a>
 
@@ -40,7 +33,6 @@ Idioma | Inglês
 **Padrões**  | As variáveis devem ser declaradas em minúsculo, em caso 2 ou mais palavras utilizar camelCase.   
 
   - Exemplos:
-
  ```javascript
     // ruim   
 	const "Products"
@@ -55,8 +47,7 @@ Idioma | Inglês
 	const "yesterday"
 	const "today"
 	const "invoicedOrders"
-	const "paidOrders”
-    ```
+	const "paidOrders”```
 **[⬆ voltar ao topo](#table-of-contents)**
 
 ## <a name='functions'>Funções</a>
@@ -82,8 +73,7 @@ async function getCredentials(param) {
     // bom
 	const getCredentials = async((param) => {
 		// implementações
-	});
-    ```
+	});```
 **- Observações: ** Sempre utilizar o mesmo nome declarado na variavel como parâmetro da função. 
 
 ```javascript
@@ -115,7 +105,7 @@ Idioma | Inglês
 
   - Exemplos:
 
-    ```javascript
+```javascript
     // ruim
 function user(options) {
           this.name = options.name;
@@ -131,8 +121,7 @@ function User(options) {
 }		
 const good = new User({
            name: 'hernandes'
-});
-    ```
+});```
 
 **[⬆ voltar ao topo](#table-of-contents)**
 

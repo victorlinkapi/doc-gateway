@@ -108,22 +108,22 @@ Idioma | Inglês
   - Exemplos:
 
 ```javascript
-    // ruim
+    	// ruim
 	function user(options) {
-	this.name = options.name;
+		this.name = options.name;
 	}
 	
 	const bad = new user({
-	name: 'hernandes'
-});
+		name: 'hernandes'
+	});
 
-    // bom
+    	// bom
 	function User(options) {
-	this.name = options.name;
+		this.name = options.name;
 	}
 	const good = new User({
 	name: 'hernandes'
-});
+	});
 ```
 **[⬆ voltar ao topo](#table-of-contents)**
 

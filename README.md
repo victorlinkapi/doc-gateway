@@ -57,12 +57,12 @@ Idioma | Inglês
 Idioma | Inglês
 ------------- | -------------
 **Objetivo**  | Ser simples e objetivo, deixar explícito o que fará a função.
-**Padrões**  | As funções devem ser declaradas em minúsculo, em caso 2 ou mais palavras utilizar camelCase.   
+**Padrões**  | As funções devem ser declaradas em minúsculo, em caso 2 ou mais palavras utilizar camelCase.
 
   - Exemplos:
 
 ```javascript
-    // ruim   
+	// ruim 
 async function getCredentials(param) {
 		// implementações
 	}
@@ -72,10 +72,11 @@ async function getCredentials(param) {
 		// implementações
 	});
 
-    // bom
+	// bom
 	const getCredentials = async((param) => {
 		// implementações
-	})```
+	})
+```
 **- Observações: ** Sempre utilizar o mesmo nome declarado na variavel como parâmetro da função. 
 
 ```javascript
@@ -93,7 +94,6 @@ async function getCredentials(param) {
 		// implementações
 	});
 	await getCredentials(sub, tenant)
-
 ```
 
 **[⬆ voltar ao topo](#table-of-contents)**
@@ -109,21 +109,21 @@ Idioma | Inglês
 
 ```javascript
     // ruim
-function user(options) {
-          this.name = options.name;
-}
+	function user(options) {
+	this.name = options.name;
+	}
 	
 	const bad = new user({
-          name: 'hernandes'
+	name: 'hernandes'
 });
 
     // bom
-function User(options) {
-           this.name = options.name;
-}		
-const good = new User({
-           name: 'hernandes'
-});```
-
+	function User(options) {
+	this.name = options.name;
+	}
+	const good = new User({
+	name: 'hernandes'
+});
+```
 **[⬆ voltar ao topo](#table-of-contents)**
 

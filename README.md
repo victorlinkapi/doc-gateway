@@ -13,8 +13,8 @@
 
 Idioma | Inglês
 ------------- | -------------
-Objetivo  | Ser simples e objetivo, deixar explícito o que fará cada arquivo.
-Padrões  | Nomenclaturas devem ser minúsculas, em caso de 2 ou mais utilizar kebab-case separando as palavras por “-” 
+**Objetivo**  | Ser simples e objetivo, deixar explícito o que fará cada arquivo.
+**Padrões**  | Nomenclaturas devem ser minúsculas, em caso de 2 ou mais utilizar kebab-case separando as palavras por “-” 
 
   - Exemplos:
   
@@ -55,9 +55,9 @@ Idioma | Inglês
 ## <a name='functions'>Funções</a>
 
 Idioma | Inglês
-------------- | -------------
-**Objetivo**  | Ser simples e objetivo, deixar explícito o que fará a função.
-**Padrões**  | As funções devem ser declaradas em minúsculo, em caso 2 ou mais palavras utilizar camelCase.
+------------- | 
+**Objetivo**  | Ser simples e objetivo, deixar explícito o que fará cada função. 
+**Padrões**  | As funções devem ser declaradas em minúsculo, em caso 2 ou mais palavras utilizar camelCase.   
 
 - Exemplos:
 
@@ -77,7 +77,7 @@ async function getCredentials(param) {
 		// implementações
 	})
 ```
-**- Observações: ** Sempre utilizar o mesmo nome declarado na variavel como parâmetro da função. 
+**Observações: ** Sempre utilizar o mesmo nome declarado na variavel como parâmetro da função. 
 
 ```javascript
 	// ruim

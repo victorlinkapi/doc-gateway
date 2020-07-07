@@ -37,7 +37,7 @@ Idioma | Inglês
  ```javascript
     // ruim   
 	const "Products"
-	const"produtos"
+	const "produtos"
 	const "invoicedorders" 
 	const "paid-orders"
 

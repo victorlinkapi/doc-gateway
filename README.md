@@ -48,7 +48,7 @@ Idioma | Inglês
 	const "yesterday"
 	const "today"
 	const "invoicedOrders"
-	const "paidOrders”```
+	const "paidOrders" ```
 **[⬆ voltar ao topo](#table-of-contents)**
 
 ## <a name='functions'>Funções</a>
@@ -74,7 +74,7 @@ async function getCredentials(param) {
     // bom
 	const getCredentials = async((param) => {
 		// implementações
-	});```
+	})```
 **- Observações: ** Sempre utilizar o mesmo nome declarado na variavel como parâmetro da função. 
 
 ```javascript

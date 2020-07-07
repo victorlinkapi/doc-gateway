@@ -29,7 +29,7 @@ Idioma | Inglês
 ## <a name='variables'>Variáveis.</a>
 
 Idioma | Inglês
-------------- | 
+------------- | -------------
 **Objetivo**  |Ser simples e objetivo, deixar explícito o que armazenará cada variável ou constante. 
 **Padrões**  | As variáveis devem ser declaradas em minúsculo, em caso 2 ou mais palavras utilizar camelCase.   
 
@@ -55,9 +55,9 @@ Idioma | Inglês
 ## <a name='functions'>Funções</a>
 
 Idioma | Inglês
-------------- | 
-**Objetivo**  | Ser simples e objetivo, deixar explícito o que fará cada função. 
-**Padrões**  | As funções devem ser declaradas em minúsculo, em caso 2 ou mais palavras utilizar camelCase.   
+------------- | -------------
+**Objetivo**  | Ser simples e objetivo, deixar explícito o que fará cada função.
+**Padrões**  | As funções devem ser declaradas em minúsculo, em caso 2 ou mais palavras utilizar camelCase. 
 
 - Exemplos:
 

@@ -89,7 +89,7 @@ Idioma | Inglês
 	});
 	await getCredentials(sub, tenant)
 
-    // bom
+    	// bom
 	const getCredentials = async((sub, tenant) => {
 		// implementações
 	});

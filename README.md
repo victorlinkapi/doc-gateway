@@ -1,3 +1,4 @@
+
 # Padronização de Gateways Linkapi
 
 ## <a name='table-of-contents'>Índice</a>
@@ -59,7 +60,7 @@ Idioma | Inglês
 
   - Exemplos:
 
-    ```javascript
+```javascript
     // ruim   
 async function getCredentials(param) {
 		// implementações

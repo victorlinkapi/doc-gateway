@@ -48,7 +48,8 @@ Idioma | Inglês
 	const "yesterday"
 	const "today"
 	const "invoicedOrders"
-	const "paidOrders" ```
+	const "paidOrders"
+```
 **[⬆ voltar ao topo](#table-of-contents)**
 
 ## <a name='functions'>Funções</a>

@@ -63,7 +63,7 @@ Idioma | Inglês
 
 ```javascript
 	// ruim 
-async function getCredentials(param) {
+	async function getCredentials(param) {
 		// implementações
 	}
 	

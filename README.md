@@ -11,8 +11,9 @@
 
 ## <a name='names'>Arquivos (custom-middlewares, data-transformations e functions).</a>
 
-Idioma | Inglês
+
 ------------- | -------------
+**Idioma** | Inglês
 **Objetivo**  | Ser simples e objetivo, deixar explícito o que fará cada arquivo.
 **Padrões**  | Nomenclaturas devem ser minúsculas, em caso de 2 ou mais utilizar kebab-case separando as palavras por “-” 
 

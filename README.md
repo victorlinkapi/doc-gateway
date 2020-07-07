@@ -77,7 +77,7 @@ async function getCredentials(param) {
 		// implementações
 	})
 ```
-**Observações: ** Sempre utilizar o mesmo nome declarado na variavel como parâmetro da função. 
+- Observações: Sempre utilizar o mesmo nome declarado na variavel como parâmetro da função.
 
 ```javascript
 	// ruim
@@ -102,8 +102,8 @@ async function getCredentials(param) {
 
 Idioma | Inglês
 ------------- | -------------
-**Objetivo**  |Ser simples e objetivo, deixar explícito o que fará cada construtor.
-**Padrões**  | Deve-se utilizar PascalCase quando nomear os construtores.   
+**Objetivo**  |Ser simples e objetivo, deixar explícito o que fará cada construtor ou classe.
+**Padrões**  | Deve-se utilizar PascalCase quando nomear os construtores e classes.   
 
   - Exemplos:
 

@@ -1,3 +1,4 @@
+
 # Padronização de Gateways Linkapi
 
 ## <a name='table-of-contents'>Índice</a>
@@ -58,7 +59,7 @@ Idioma | Inglês
 **Objetivo**  | Ser simples e objetivo, deixar explícito o que fará a função.
 **Padrões**  | As funções devem ser declaradas em minúsculo, em caso 2 ou mais palavras utilizar camelCase.
 
-  - Exemplos:
+- Exemplos:
 
 ```javascript
 	// ruim 
